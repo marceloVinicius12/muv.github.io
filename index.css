@@ -1,0 +1,30 @@
+/* Variaveis */ 
+:root{
+    --cor-primaria: #fff;
+    --cor-secundaria: #AAADB0;
+}
+.cabecalho{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+}
+.cabecalho__site__muv{
+    background-image: url(img/MuvTitulo.jpg);
+    height: 600px;
+    background-color: var(--cor-secundaria);
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: var(--cor-primaria);
+}
+.Titulo{
+    font-weight: 200;
+    font-size: 4em;
+    text-align: left;
+    margin-left: 25%;
+}
+.subTitulo{
+    font-size: 1.5em;
+    text-align: left;
+    margin-left: 25%;
+    color: var(--cor-primaria);
+}

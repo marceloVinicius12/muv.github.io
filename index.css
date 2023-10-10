@@ -1,30 +1,174 @@
 /* Variaveis */ 
 :root{
     --cor-primaria: #fff;
-    --cor-secundaria: #AAADB0;
+    --cor-secundaria: #B5B5B7;
+    --cor-fundo: #000000;
+}
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body {
+    overflow-x: hidden;
 }
 .cabecalho{
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
 }
+.links{
+    text-decoration: none;
+    color: var(--cor-primaria);
+
+}
+
 .cabecalho__site__muv{
-    background-image: url(img/MuvTitulo.jpg);
-    height: 600px;
+    background: url(img/MUV_titulos.jpg) no-repeat;
+    height: 500px;
     background-color: var(--cor-secundaria);
     background-position: right center;
-    background-repeat: no-repeat;
     background-size: contain;
     color: var(--cor-primaria);
 }
 .Titulo{
     font-weight: 200;
     font-size: 4em;
-    text-align: left;
-    margin-left: 25%;
 }
 .subTitulo{
     font-size: 1.5em;
-    text-align: left;
-    margin-left: 25%;
     color: var(--cor-primaria);
+}
+.secaoTextoImagem, .secaoEstudio{
+    background-color: var(--cor-fundo);
+    color: var(--cor-primaria);
+}
+
+.texto_secaoTextoImagem, .texto_secaoEstudio {
+    font-size: 1.5em;
+    text-align: end;
+}
+.col-lg-6.fundo__dna {
+    background-image: url(./img/curvageometrica.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.col-lg-6.fundo__estudio {
+    background-image: url(./img/imagem_teto.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 550px;
+}
+.col-lg-6.mt-5.text-center {
+    display: flex;
+    align-items: center;
+    padding: 5em 11em 5em 3em;
+}
+.menu__cabecalho {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16rem;
+    margin-left: 5rem;
+}
+.escrita__topo__muv{
+    margin-left: 20rem;
+    margin-top: 4rem !important;
+}
+
+.servicosOferecidos{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    height: 470px;
+
+}
+
+.servicosOferecidos_Texto{
+    margin-top: 4rem !important;
+}
+
+.servicosOferecidos_botao{
+    border: none;
+    width: 22rem;
+    border-radius: 2rem;
+    height: 3rem;
+    color: var(--cor-secundaria);
+    cursor: none;
+
+}
+.Contato_footer{
+    background-color: var(--cor-secundaria);
+    color: var(--cor-primaria);
+    height: 100px;
+
+}
+.row.texto_Contatofooter{
+    margin-top: 3rem;
+}
+.imagem__muv__topo__versao__mobile{
+    display: none;
+}
+.titulo__versao__mobile{
+    display: none;
+}
+.Titulo{
+    display: block;
+}
+
+.botao_zap{
+    position: fixed;
+    bottom: 0; 
+    right: 0; 
+    margin: 20px;
+}
+
+@media screen and (max-width: 789px){
+    .escrita__topo__muv {
+        margin-left: 2rem;
+        margin-top: 0rem !important;
+    }
+    .imagem__muv__topo__versao__mobile{
+        display: block;
+    }
+    .cabecalho__site__muv {
+        background: var(--cor-secundaria);
+        height: 450px;
+    }
+    img.imagem__muv__topo__versao__mobile.img-fluid {
+        width: 105px;
+        height: auto;
+        transform: rotate(0deg);
+        margin: 0 0 0 auto;
+    }
+    .linha__escrita__imagem{
+        display: flex;
+        align-items: center;
+    }
+    .menu__cabecalho {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0rem;
+        margin-left: 0rem;
+    }
+    .titulo__versao__mobile{
+        display: block;
+        font-size: 2em;
+    }
+    .Titulo{
+        display: none;
+    }
+    .row {
+       --bs-gutter-x: 0rem !important;
+    }
+    .mt-5 {
+        margin-top: 5rem !important;
+    }
+    .texto_secaoTextoImagem, .texto_secaoEstudio {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .col-lg-6.mt-5.text-center {
+        padding: 0 2em 2em 2em;
+    }
 }

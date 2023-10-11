@@ -21,7 +21,7 @@ body {
 }
 
 .cabecalho__site__muv{
-    background: url(img/MUV_titulo.jpg) no-repeat;
+    background: url(img/Muv_titulo.jpg) no-repeat;
     height: 500px;
     background-color: var(--cor-secundaria);
     background-position: right center;

@@ -21,7 +21,7 @@ body {
 }
 
 .cabecalho__site__muv{
-    background: url(img/MUV_titulos.jpg) no-repeat;
+    background: url(img/MUV_titulo.jpg) no-repeat;
     height: 500px;
     background-color: var(--cor-secundaria);
     background-position: right center;
@@ -46,14 +46,14 @@ body {
     text-align: end;
 }
 .col-lg-6.fundo__dna {
-    background-image: url(./img/curvageometrica.jpg);
+    background-image: url(./img/imagem_sala.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 550px;
 }
 .col-lg-6.fundo__estudio {
-    background-image: url(./img/imagem_teto.jpg);
+    background-image: url(./img/imagem_parede.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -100,6 +100,11 @@ body {
     background-color: var(--cor-secundaria);
     color: var(--cor-primaria);
     height: 100px;
+}
+
+.numero_footer{
+    text-decoration: none;
+    color: var(--cor-primaria);
 
 }
 .row.texto_Contatofooter{
@@ -170,5 +175,10 @@ body {
     }
     .col-lg-6.mt-5.text-center {
         padding: 0 2em 2em 2em;
+    }
+    .numero_footer {
+        text-decoration: none;
+        color: var(--cor-primaria);
+        margin-left: 2rem;
     }
 }
